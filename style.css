@@ -1,0 +1,57 @@
+.logo svg{
+    width: 180px;
+    height: 51px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+.options{
+    display: flex;
+    align-items: center;
+}
+.h-h-t a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 50px;
+    color: black;
+}
+.h-c a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: bold;
+}
+.h-c{
+    background-color: rgba(117, 191, 122, 1);
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.m-1{
+    display: flex;
+    padding: 100px;
+}
+
+.m-1 div{
+    flex: 1;
+}
+.m-1-1 div div a{
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+.m-1-1 div div{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: black;
+}
+.m-1-1 div{
+    display: flex;
+}
