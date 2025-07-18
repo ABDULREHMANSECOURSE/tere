@@ -40,13 +40,13 @@ header{
 .m-1 div{
     flex: 1;
 }
-.m-1-1 div div a{
+.m-1-1 div button{
     font-size: 24px;
     font-weight: 800;
     text-decoration: none;
     color: white;
 }
-.m-1-1 div div{
+.m-1-1 div button{
     padding: 10px;
     margin: 20px;
     border-radius: 5px;
