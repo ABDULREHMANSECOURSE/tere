@@ -1,5 +1,7 @@
 *{
     font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .logo svg{
     width: 180px;
@@ -71,4 +73,52 @@ header{
     font-size: 28px;
     font-weight: 500;
     line-height: 28px;
+}
+
+.m-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #75c57a;
+  padding: 50px 70px;
+  margin: auto 100px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+
+.m-2 p {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  width: 225px;
+  margin: 0;
+}
+
+.m-2-input {
+  padding: 20px;
+  padding-right: 100px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 300px;
+  color: #dadada;
+  font-weight: 600;
+}
+.m-2-input::placeholder {
+    opacity: 0.5;
+}
+
+.m-2 button {
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
 }
