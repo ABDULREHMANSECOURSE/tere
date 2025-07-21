@@ -13,7 +13,7 @@ header{
     align-items: center;
     padding: 30px 60px;
 }
-.options{
+.h-options{
     display: flex;
     align-items: center;
 }
@@ -36,44 +36,77 @@ header{
     border-radius: 5px;
     padding: 10px 25px;
 }
-
-.m-1{
-    display: flex;
-    padding: 100px;
+.h-icon{
+    display: none;
 }
 
-.m-1 div{
-    flex: 1;
+main{
+    background-color: #F9F9F9;
 }
-.m-1-1 div button{
-    font-size: 25px;
-    font-weight: 800;
-    font-style: bolder;
-    color: white;
-    background-color: black;
-    padding: 10px 25px;
-    margin: auto auto auto 0;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.m-1 {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 20px 100px 100px 100px;
+  height: 650px;
+}
 
+.m-1-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 30px;
+  padding-right: 50px;
 }
-.m-1-1 div button span img{
-    height: 40px;
+
+.m-1-1 h1 {
+  font-size: 60px;
+  font-style: 900;
+  line-height: 1.2;
 }
-.m-1-1 div{
-    margin-top: 110px;
-    display: flex;
+
+.m-1-1 p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: grey;
 }
-.m-1-1 h1{
-    font-size: 60px;
+
+.m-1-1 > div {
+  display: flex;
+  gap: 20px;
 }
-.m-1-1 p{
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 28px;
+
+.m-1-1 div button {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  padding: 15px 25px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: none;
 }
+
+.m-1-1 div button span img {
+  height: 28px;
+}
+
+.m-1-2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.m-1-2 img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .m-2 {
   display: flex;
@@ -122,4 +155,28 @@ header{
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.m-3{
+    margin: 100px auto;
+    width: 600px;
+}
+
+.m-3 h1{
+    font-size: 45px;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.m-3 h1 span{
+    color: #75c57a;
+}
+.m-3 p{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 23px;
+    line-height: 26px;
+    opacity: .5;
+    text-align: center;
 }

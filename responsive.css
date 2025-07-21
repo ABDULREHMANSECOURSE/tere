@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1000px){
+    .h-icon{
+        display: block;
+    }
+    .h-options{
+        display: none;
+    }
+
+    .m-1{
+        flex-wrap: wrap;
+    }
+}
