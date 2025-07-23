@@ -8,5 +8,20 @@
 
     .m-1{
         flex-wrap: wrap;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .m-1-2{
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    body{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .m-2-input{
+        padding-right: 20px;
     }
 }
