@@ -119,6 +119,7 @@ main{
   border-radius: 10px;
   font-family: sans-serif;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .m-2 p {
