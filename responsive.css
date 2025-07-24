@@ -15,10 +15,17 @@
     .m-1-2{
         margin-bottom: 100px;
     }
+    .m-2{
+        flex-direction: column;
+    }
+    .m-2-input{
+        padding: 20px;
+        margin: auto;
+    }
 }
-@media only screen and (max-width: 1400px){
+@media only screen and (MIN-width: 1700px){
     body{
-        width: 1000px;
+        width: 1200px;
         margin: 0 auto;
     }
     .m-2-input{
