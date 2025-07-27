@@ -200,8 +200,8 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-height: 700px;
-  max-width: 280px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 /* LEFT = aligned right */
@@ -216,48 +216,52 @@ main{
   text-align: left;
 }
 
-/* Center mobile image */
 .m-4-2 {
-  width: 360px;
-  height: 700px;
-  background: url('mobile-background.png') no-repeat center center;
-  background-size: contain;
-  position: relative;
+    width: 400px;
+    height: 700px;
+    background: url('mobile-background.png') no-repeat center center;
+    background-size: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Phone inside background */
+/* Phone image inside background */
 .m-4-2::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  height: 100%;
-  background: url('mobile.png') no-repeat center center;
-  background-size: 240px;
-  z-index: 1;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Increased from 240px */
+    height: 600px; /* Adjusted height proportionally */
+    background: url('mobile.png') no-repeat center center;
+    background-size: 300px; /* Match the new width */
+    z-index: 1;
 }
 
 /* Number circles */
 .m-4 span {
-  display: inline-block;
-  background-color: white;
-  border: 6px solid #75BF7A;
-  color: #75BF7A;
-  font-weight: bold;
-  font-size: 28px;
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 55px;
-  margin-bottom: 10px;
+    display: inline-block;
+    background-image: url('n-c.png');
+    background-size: cover;
+    background-position: center;
+    color: #75BF7A;
+    font-weight: bold;
+    font-size: 28px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 65px; /* Match the height to center vertically */
+    margin-bottom: 10px;
 }
 
 /* Headings */
 .m-4 h4 {
   font-size: 20px;
+  line-height: 50px;
   font-weight: 800;
   margin: 0;
   color: #000;
@@ -266,10 +270,19 @@ main{
 
 /* Paragraphs */
 .m-4 p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   color: #777;
-  margin: 0;
-  line-height: 24px;
-  max-width: 240px;
+  line-height: 26px;
+  max-width: 290px;
+}
+.m-4 h2{
+  display: none;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.m-4 h2 > div{
+  display: inline;
+  color: #75c57a;
 }

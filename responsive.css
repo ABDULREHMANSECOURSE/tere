@@ -173,3 +173,22 @@
     margin: 0 auto;
   }
 }
+
+@media only screen and (max-width: 1150px){
+  .m-4{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.m-4-3,.m-4-1{
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+.m-4-2{
+  order: -1;
+}
+.m-4 h2{
+  display: block;
+}
+}
